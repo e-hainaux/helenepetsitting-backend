@@ -17,8 +17,8 @@ const corsOptions = {
     const allowedOrigins = [
       "http://localhost:3000",
       "http://localhost:3001",
-      "https://helenepetsitting-frontend.vercel.app/",
-      "https://helenepetsitting-backend.vercel.app/",
+      "https://helenepetsitting-frontend.vercel.app",
+      "https://helenepetsitting-backend.vercel.app",
     ];
     if (allowedOrigins.includes(origin) || !origin) {
       callback(null, true);
