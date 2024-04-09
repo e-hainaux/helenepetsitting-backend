@@ -7,7 +7,6 @@ var logger = require("morgan");
 
 var indexRouter = require("./routes/index");
 var formRouter = require("./routes/form");
-
 var app = express();
 
 const cors = require("cors"); // Installation de Cors
@@ -18,8 +17,8 @@ const corsOptions = {
     const allowedOrigins = [
       "http://localhost:3000",
       "http://localhost:3001",
-      "https://helenepetsitting-frontend.vercel.app",
-      "https://helenepetsitting-backend.vercel.app",
+      "https://helenepetsitting-frontend.vercel.app/",
+      "https://helenepetsitting-backend.vercel.app/",
     ];
     if (allowedOrigins.includes(origin) || !origin) {
       callback(null, true);
