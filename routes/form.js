@@ -42,7 +42,6 @@ router.post("/send-email", async (req, res) => {
       to: process.env.EMAIL_USER,
       subject: "HELENE PET SITTING - Nouvelle demande de contact",
       html: `<p>Nom: ${prenom} ${nom}</p>
-      
       <p>Email: ${email}</p>
       <p>Téléphone: ${telephone}</p>
       <p>Commentaire: ${commentaire}</p>`,
