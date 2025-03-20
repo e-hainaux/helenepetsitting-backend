@@ -19,6 +19,7 @@ const corsOptions = {
       "http://localhost:3001",
       "https://helenepetsitting-frontend.vercel.app",
       "https://helenepetsitting-backend.vercel.app",
+      "https://heleneproplus-next2025.vercel.app/",
     ];
     if (allowedOrigins.includes(origin) || !origin) {
       callback(null, true);
